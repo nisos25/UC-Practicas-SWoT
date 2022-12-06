@@ -37,4 +37,8 @@ El delete, put y patch usan parametros para saber en qué posición está el obj
 
 Adicional a esto el patch soporta la modificación de los valores enteros, por lo que también recibe un body.
 
-![Link]()
+![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/1a16389fc39e11b262c01ef7b45773e68d109ca0/Informes/Practica2/imgs/1.png)
+![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/1a16389fc39e11b262c01ef7b45773e68d109ca0/Informes/Practica2/imgs/2.png)
+![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/1a16389fc39e11b262c01ef7b45773e68d109ca0/Informes/Practica2/imgs/3.png)
+![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/1a16389fc39e11b262c01ef7b45773e68d109ca0/Informes/Practica2/imgs/4.png)
+![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/1a16389fc39e11b262c01ef7b45773e68d109ca0/Informes/Practica2/imgs/5.png)
