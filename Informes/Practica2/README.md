@@ -2,7 +2,7 @@
 Jose Nicolas Santander
 
 ## Instalación NodeJS y NestJS
-![Link]()
+![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/c05b2e691fbd333a02258642d2d534cbda3d68bd/Informes/Practica2/imgs/6.png)
 
 Comandos de instalación que se encuentran en la guía.
 
@@ -13,7 +13,7 @@ Con Node y Nest instalados se crea un nuevo proyecto de nest con el comando **ne
 Cuando Nest crea el proyecto tenemos un servidor web y un Hola mundo básico, en este caso lo consultamos con
 localhost:3000, tanto en la terminal como en el navegador.
 
-![Link]()
+![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/c05b2e691fbd333a02258642d2d534cbda3d68bd/Informes/Practica2/imgs/7.png)
 
 ## Código en repositorio de Github
 Acá toca seguir unos pasos antes de poder subir el código por cambios en la autenticación de Github.
@@ -25,7 +25,7 @@ access tokens*
 
 Con esto ya se pudo subir el código normalmente sin pasos adicionales
 
-![Link]()
+![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/c05b2e691fbd333a02258642d2d534cbda3d68bd/Informes/Practica2/imgs/8.png)
 
 ## Identificar los verbos Http y su uso para un caso de ejemplo.
 
