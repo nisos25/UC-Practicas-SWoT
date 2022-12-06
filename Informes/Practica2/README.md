@@ -1,5 +1,5 @@
 # Práctica 2
-Jose Nicolas Santander
+Jose Nicolas Santander.
 
 ## Instalación NodeJS y NestJS
 ![Link](https://github.com/nisos25/UC-Practicas-SWoT/blob/c05b2e691fbd333a02258642d2d534cbda3d68bd/Informes/Practica2/imgs/6.png)
