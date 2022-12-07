@@ -5,6 +5,6 @@ Jose Nicolas Santander.
 ![Link]()
 Resultado del navegador
 ![Link]()
-
+https://7cb1k8.deta.dev/ link de deta
 ![Link]()
 Visor activo
