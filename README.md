@@ -1,1 +1,1 @@
-# Test
+# Práctica SWoT
