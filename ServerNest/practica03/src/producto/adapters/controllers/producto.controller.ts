@@ -25,7 +25,6 @@ const errReturn = (e: Error, message: string) => {
 export class ProductoController {
   constructor(private readonly productoService: ProductoService) {}
 
-  @UseGuards(JwtAuthGuard)
   @Get()
   getHello() {
     try {
@@ -45,6 +44,7 @@ export class ProductoController {
     }
   }
 
+  @UseGuards(JwtAuthGuard)
   @Put(':id')
   modificar(@Body() datos: Fruta, @Param('id') id: number) {
     try {
@@ -54,6 +54,7 @@ export class ProductoController {
     }
   }
 
+  @UseGuards(JwtAuthGuard)
   @Delete(':id')
   eliminar(@Param('id') id: number) {
     try {
@@ -63,6 +64,7 @@ export class ProductoController {
     }
   }
 
+  @UseGuards(JwtAuthGuard)
   @Patch(':id')
   cambiarDatos(@Param('id') id: number, @Param('madura') madura: boolean) {
     try {
