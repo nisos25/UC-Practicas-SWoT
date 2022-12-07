@@ -12,6 +12,7 @@ import {
 import { ProductoService } from '../../domain/services/producto.service';
 import { Fruta } from '../../domain/models/fruta.model';
 import { AuthGuard } from '@nestjs/passport';
+import { JwtAuthGuard } from '../../../auth/jwt-auth.guard';
 
 const errReturn = (e: Error, message: string) => {
   return {
@@ -24,6 +25,7 @@ const errReturn = (e: Error, message: string) => {
 export class ProductoController {
   constructor(private readonly productoService: ProductoService) {}
 
+  @UseGuards(JwtAuthGuard)
   @Get()
   getHello() {
     try {
@@ -33,7 +35,7 @@ export class ProductoController {
     }
   }
 
-  @UseGuards(AuthGuard('local'))
+  @UseGuards(JwtAuthGuard)
   @Post()
   crear(@Body() datos: Fruta) {
     try {
